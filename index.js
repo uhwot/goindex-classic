@@ -1,12 +1,12 @@
 var authConfig = {
-    "siteName": "GoIndex", // 网站名称
-    "root_pass": "index",  // 根目录密码，优先于.password
-    "version" : "1.0.7", // 程序版本
+    "siteName": "GoIndex", // site name
+    "root_pass": "index",  // root directory password, takes precedence over .password
+    "version" : "1.0.7", // version
     "theme" : "material", // material  classic 
     "client_id": "202264815644.apps.googleusercontent.com",
     "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-    "refresh_token": "", // 授权 token
-    "root": "root" // 根目录ID
+    "refresh_token": "", // auth token
+    "root": "root" // root directory ID
 };
 
 var gd;
